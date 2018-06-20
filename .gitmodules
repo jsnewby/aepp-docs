@@ -22,3 +22,6 @@
 	path = aepp-sdk-docs
 	url = https://github.com/aeternity/aepp-sdk-docs.git
 	branch = master
+[submodule "epoch"]
+	path = epoch
+	url = git@github.com:aeternity/epoch.git

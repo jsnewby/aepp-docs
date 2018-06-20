@@ -1,20 +1,22 @@
 {% capture html %}
 <ul class="navigation" id="navigation">
-      <li>
-        <a class="active" href="/">introduction</a>
-      </li>
-      <li><a class="inactive" href="">æternity</a>
-	<ul>
-	  <li><a href="/aepp-sdk-docs/Oracles.html">Oracles</a></li>
-	  <li><a href="/aepp-sdk-docs/AENS-Python.html">Naming system</a></li>
-	  <li><a href="/aepp-sdk-docs/Sofia.html">Sophia tutorial</a></li>
-	</ul>
-<!--
-
-      https://dev.aepps.com/aepp-blockchain-explorer/README.html Javascript SDK
-      https://dev.aepps.com/aepp-sdk-docs/JS-Examples.html Javascript SDK Examples
-      https://dev.aepps.com/aepp-sdk-python/README.html Python SDK
-      https://dev.aepps.com/aepp-sdk-docs/Glossary.html Glossary
+  <li><a class="active" href="/">introduction</a></li>
+  <li>about æternity</li>
+  <li><a href="epoch/docs/docker.md">Docker install</a></li>
+  <li><a href="/aepp-sdk-docs/Oracles.html">Oracles</a></li>
+  <li><a href="/aepp-sdk-docs/AENS-Python.html">Naming system</a></li>
+  <li><a href="/aepp-sdk-docs/Sofia.html">Sophia tutorial</a></li>
+  <li><a href="http://contracts.aepps.com">Contract editor</a></li>
+  <li>Javascript SDK</li>
+  <li><a href="aepp-sdk-js/README.html">Installation</a></li>
+  <li><a href="aepp-sdk-js/JS.html">Programming guide</a></li>
+  <li><a href="/aepp-sdk-docs/JS-Examples.html">Annotated examples</a></li>
+  <li>Python SDK</li>
+  <li><a href="aepp-sdk-python/README.md">Installation guide</a></li>
+  <li><a href="">Programming guide</a></li>
+  <li><a href="">Annotated examples</a></li>
+  <li><a href="">API Documentation</a></li>
+  
 -->      
 </ul>
 {% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}
