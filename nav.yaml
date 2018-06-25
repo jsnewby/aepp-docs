@@ -1,0 +1,51 @@
+category: Introduction
+	page:
+		title: Installation
+		target: http://kljkljlkjlk
+section: about æternity
+  	page:
+		link: "/epoch/docs/docker.md"
+		label: "Docker install"
+	page:
+		link: "/aepp-sdk-docs/Oracles.html"
+		label:Oracles
+	page:
+		link: "/aepp-sdk-docs/AENS-Python.html"
+		label: Naming system
+	page:
+		link: "/aepp-sdk-docs/Sofia.html"
+		label: Sophia tutorial
+
+section: Javascript SDK
+	page:
+		link: "/aepp-sdk-js/README.html">Installation</a></li>
+		link: "/aepp-sdk-js/JS.html">Programming guide</a></li>
+		link: "/aepp-sdk-docs/JS-Examples.html">Annotated examples</a></li>
+section: Python SDK
+	page:
+		link: "/aepp-sdk-python/README.md"
+		label: Installation guide
+	page:	
+		link: ""
+		label: Programming guide
+	page:
+		link: ""
+		label: Annotated examples
+	page:
+		link: ""
+		label: API Documentation
+section: Online tools
+	page:
+		link: "http://contracts.aepps.com"
+		label: Contract editor
+	page:
+		link: "https://explorer.aepps.com/#/"
+		label: Blockchain explorer
+		
+section: Components
+	page:
+		link: "/aepp-components/README.html"
+		label: æpp components
+	page:
+		link: "/aepp-blockchain-explorer/README.html
+		label: Blockchain explorer
