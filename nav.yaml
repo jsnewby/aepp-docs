@@ -1,51 +1,69 @@
-category: Introduction
-	page:
-		title: Installation
-		target: http://kljkljlkjlk
+/*
+section: First level headline
+  page:
+    label: Second level headline
+    link: https://absolute.link/to/file.md
+  page:
+    label: Second leven headline
+    link: /aepp-docs/relative/link/into/submodule/to/file.md
+*/
+
+section: Introduction
+  page:
+    label: Installation
+    link: /aepp-sdk-docs/Installation.md
+
 section: about æternity
-  	page:
-		link: "/epoch/docs/docker.md"
-		label: "Docker install"
-	page:
-		link: "/aepp-sdk-docs/Oracles.html"
-		label:Oracles
-	page:
-		link: "/aepp-sdk-docs/AENS-Python.html"
-		label: Naming system
-	page:
-		link: "/aepp-sdk-docs/Sofia.html"
-		label: Sophia tutorial
+  page:
+    label: Docker install
+    link: /epoch/docs/docker.md
+  page:
+    label: Oracles
+    link: /aepp-sdk-docs/Oracles.md
+  page:
+    label: Naming system
+    link: /aepp-sdk-docs/AENS-Python.md
+  page:
+    label: Sophia tutorial
+    link: /aepp-sdk-docs/Sofia.md
 
 section: Javascript SDK
-	page:
-		link: "/aepp-sdk-js/README.html">Installation</a></li>
-		link: "/aepp-sdk-js/JS.html">Programming guide</a></li>
-		link: "/aepp-sdk-docs/JS-Examples.html">Annotated examples</a></li>
+  page:
+    link: /aepp-sdk-js/README.md
+    label: Something
+  page:
+    label: Something
+    link: /aepp-sdk-js/JS.md
+  page:
+    label: JS Examples
+    link: /aepp-sdk-docs/JS-Examples.md
+
 section: Python SDK
-	page:
-		link: "/aepp-sdk-python/README.md"
-		label: Installation guide
-	page:	
-		link: ""
-		label: Programming guide
-	page:
-		link: ""
-		label: Annotated examples
-	page:
-		link: ""
-		label: API Documentation
+  page:
+    label: Installation guide
+    link: /aepp-sdk-python/README.md
+  page:
+    label: Programming guide
+    link: https://something.something/something
+  page:
+    label: Annotated examples
+    link: https://something.something/something
+  page:
+    label: API Documentation
+    link: https://something.something/something
+
 section: Online tools
-	page:
-		link: "http://contracts.aepps.com"
-		label: Contract editor
-	page:
-		link: "https://explorer.aepps.com/#/"
-		label: Blockchain explorer
-		
+  page:
+    label: Contract editor
+    link: https://contracts.aepps.com
+  page:
+    label: Blockchain explorer
+    link: https://explorer.aepps.com/
+
 section: Components
-	page:
-		link: "/aepp-components/README.html"
-		label: æpp components
-	page:
-		link: "/aepp-blockchain-explorer/README.html
-		label: Blockchain explorer
+  page:
+    label: æpp components
+    link: /aepp-components/README.md
+  page:
+    label: Blockchain explorer
+    link: /aepp-blockchain-explorer/README.md
