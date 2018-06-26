@@ -1,0 +1,69 @@
+/*
+section: First level headline
+  page:
+    label: Second level headline
+    link: https://absolute.link/to/file.md
+  page:
+    label: Second leven headline
+    link: /aepp-docs/relative/link/into/submodule/to/file.md
+*/
+
+section: Introduction
+  page:
+    label: Installation
+    link: /aepp-sdk-docs/Installation.md
+
+section: about æternity
+  page:
+    label: Docker install
+    link: /epoch/docs/docker.md
+  page:
+    label: Oracles
+    link: /aepp-sdk-docs/Oracles.md
+  page:
+    label: Naming system
+    link: /aepp-sdk-docs/AENS-Python.md
+  page:
+    label: Sophia tutorial
+    link: /aepp-sdk-docs/Sofia.md
+
+section: Javascript SDK
+  page:
+    link: /aepp-sdk-js/README.md
+    label: Something
+  page:
+    label: Something
+    link: /aepp-sdk-js/JS.md
+  page:
+    label: JS Examples
+    link: /aepp-sdk-docs/JS-Examples.md
+
+section: Python SDK
+  page:
+    label: Installation guide
+    link: /aepp-sdk-python/README.md
+  page:
+    label: Programming guide
+    link: https://something.something/something
+  page:
+    label: Annotated examples
+    link: https://something.something/something
+  page:
+    label: API Documentation
+    link: https://something.something/something
+
+section: Online tools
+  page:
+    label: Contract editor
+    link: https://contracts.aepps.com
+  page:
+    label: Blockchain explorer
+    link: https://explorer.aepps.com/
+
+section: Components
+  page:
+    label: æpp components
+    link: /aepp-components/README.md
+  page:
+    label: Blockchain explorer
+    link: /aepp-blockchain-explorer/README.md
