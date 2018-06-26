@@ -1,69 +1,55 @@
-/*
-section: First level headline
-  page:
-    label: Second level headline
-    link: https://absolute.link/to/file.md
-  page:
-    label: Second leven headline
-    link: /aepp-docs/relative/link/into/submodule/to/file.md
-*/
+page:
+  label: Introduction
+  link: /README.md
 
-section: Introduction
+section: About æternity
   page:
-    label: Installation
-    link: /aepp-sdk-docs/Installation.md
-
-section: about æternity
-  page:
-    label: Docker install
+    label: Docker Installation
     link: /epoch/docs/docker.md
   page:
     label: Oracles
     link: /aepp-sdk-docs/Oracles.md
   page:
-    label: Naming system
+    label: AENS Naming System
     link: /aepp-sdk-docs/AENS-Python.md
   page:
-    label: Sophia tutorial
+    label: Sophia Tutorial
     link: /aepp-sdk-docs/Sofia.md
 
 section: Javascript SDK
   page:
+    label: Installation
     link: /aepp-sdk-js/README.md
-    label: Something
   page:
-    label: Something
+    label: Programming Guide
     link: /aepp-sdk-js/JS.md
   page:
-    label: JS Examples
+    label: Annotated Examples
     link: /aepp-sdk-docs/JS-Examples.md
 
 section: Python SDK
   page:
-    label: Installation guide
+    label: Installation
     link: /aepp-sdk-python/README.md
   page:
-    label: Programming guide
-    link: https://something.something/something
+    label: Programming Guide
+    link: /aepp-sdk-python/PY.md
   page:
-    label: Annotated examples
-    link: https://something.something/something
+    label: Annotated Examples
+    link: /aepp-sdk-python/PY-Examples.md
   page:
     label: API Documentation
-    link: https://something.something/something
+    link: /aepp-sdk-python/PY-API.md
 
-section: Online tools
+section: Online Tools
   page:
-    label: Contract editor
+    label: Contract Editor
     link: https://contracts.aepps.com
   page:
-    label: Blockchain explorer
-    link: https://explorer.aepps.com/
+    label: Blockchain Explorer
+    link: https://explorer.aepps.com
 
 section: Components
   page:
     label: æpp components
     link: /aepp-components/README.md
-  page:
-    label: Blockchain explorer
-    link: /aepp-blockchain-explorer/README.md
